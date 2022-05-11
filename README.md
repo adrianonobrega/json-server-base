@@ -34,6 +34,7 @@ email e senha são obrigatórios!!!
 ### Cadastro de Produtos
 
 POST /product
+
 É preciso passar o userId do usuario (como explica na documentação da API - https://www.npmjs.com/package/json-server-auth) para poder cadastrar o produto.
 
 ### Atualização de algum dado do Produto
