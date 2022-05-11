@@ -2,10 +2,226 @@
   "users": [
     {
       "email": "kenzinho@mail.com",
-      "password": "$2a$10$YQiiz0ANVwIgpOjYXPxc0O9H2XeX3m8OoY1xk7OGgxTnOJnsZU7FO",
-      "name": "Kenzinho",
+      "password": "$2a$10$NK2WXuSl4xEtzgdCYKXABOGdVNoJO85Enrd0C147ukbvkhEdaKsnm",
+      "name": "adriano",
       "age": 38,
       "id": 1
+    },
+    {
+      "email": "usuariomaster@gmail.com",
+      "password": "$2a$10$1q/SP8eIHDwZxMeJCZeR/.6HooMIaNKlZuBcwe/dS8aXVCrf3XxY.",
+      "name": "CadastroProduto",
+      "age": 28,
+      "id": 4
+    },
+    {
+      "email": "empresa@gmail.com",
+      "password": "$2a$10$8.q7soKBC3J2.tRsYCCujuS6iRU23bPi.1x3EqlS7yNtiuHlEI.0q",
+      "name": "empresaX",
+      "age": 50,
+      "id": 5
+    }
+  ],
+  "product": [
+    {
+      "name": "Ração Seca Nutrilus Prime Frango para Cães Adultos de Raças Médias",
+      "description": "Contém em sua composição extrato de yucca, que atua na redução de odor das fezes;",
+      "price": 198.65,
+      "type": "Comida",
+      "img": "https://www.petlove.com.br/images/products/250928/large/2697118_Nutrilus-Prime-Ra%C3%A7as-M%C3%A9dias.jpg?1636403533",
+      "petType": "Gato",
+      "userId": 4,
+      "id": 3
+    },
+    {
+      "name": "Bowl Future Pet para Cães e Gatos",
+      "description": "Feito de aço inox",
+      "price": 99.38,
+      "type": "Acessório",
+      "img": "https://www.petlove.com.br/images/products/251757/product/Bowl_Future_Pet_para_C%C3%A3es_e_Gatos_-_800_mL_2765001_%281%29.jpg?1642454399",
+      "petType": "Todos",
+      "userId": 4,
+      "id": 4
+    },
+    {
+      "name": "Biscoito Suprema para Cães Adultos Raças Pequenas",
+      "description": "Sem corantes artificiais;Feito com carnes selecionadas;Macio e saboroso.",
+      "price": 16.19,
+      "type": "Comida",
+      "img": "https://www.petlove.com.br/images/products/249351/product/Biscoito_Suprema_para_C%C3%A3es_Adultos_Ra%C3%A7as_Pequenas_2724993_%282%29.jpg?1634831655",
+      "petType": "Cachorro",
+      "userId": 4,
+      "id": 5
+    },
+    {
+      "name": "Brinquedo Future Pet La Casa de Papel para Cães",
+      "description": "Brinquedo Coleção La Casa de Papel da Future Pet",
+      "price": 62.91,
+      "type": "Comida",
+      "img": "https://www.petlove.com.br/images/products/253084/product/Brinquedo_Future_Pet_La_Casa_de_Papel_para_C%C3%A3es_2785244_%281%29.jpg?1648046408",
+      "petType": "Cachorro",
+      "userId": 4,
+      "id": 6
+    },
+    {
+      "name": "Brinquedo Bolinha Future Pet NBA para Cães",
+      "description": "Indicado para cães de todas as idades e de todos os portes;",
+      "price": 62.91,
+      "type": "Acessório",
+      "img": "https://www.petlove.com.br/images/products/253419/product/Padr%C3%A3o_%281%29-Recuperado.jpg?1651249932",
+      "petType": "Cachorro",
+      "userId": 4,
+      "id": 7
+    },
+    {
+      "name": "Ração Seca Nutrilus Pro Frango & Carne para Cães Adultos",
+      "description": "Sabor irresistível;Intestino saudável;Proteínas de alta qualidade;",
+      "price": 113.32,
+      "type": "Comida",
+      "img": "https://www.petlove.com.br/images/products/250504/product/2492302_FRENTE.jpg?1635779700",
+      "petType": "Cachorro",
+      "userId": 4,
+      "id": 8
+    },
+    {
+      "name": "Peitoral Mesh Future Pet Nasa Prata",
+      "description": "Peitoral Mesh para cachorros Nasa Prata da Future, Unleashing the Future.",
+      "price": 90.64,
+      "type": "Acessório",
+      "img": "https://www.petlove.com.br/images/products/230329/product/Slide37.JPG?1627735172",
+      "petType": "Cachorro",
+      "userId": 4,
+      "id": 9
+    },
+    {
+      "name": "Ração Seca Royal Canin Puppy Golden Retriever para Cães Filhotes",
+      "description": "Proteínas e vitaminas que ajudam manter as articulações em ótimo funcionamento, como também livres de doenças relacionadas a visão;",
+      "price": 343.79,
+      "type": "Comida",
+      "img": "https://www.petlove.com.br/images/products/213926/product/Ra%C3%A7%C3%A3o_Seca_Royal_Canin_Puppy_Golden_Retriever_para_C%C3%A3es_Filhotes_2418592.jpg?1627686737",
+      "petType": "Cachorro",
+      "userId": 4,
+      "id": 10
+    },
+    {
+      "name": "Ração Total Equilíbrio Raças Específicas Golden Filhote Sabor Frango",
+      "description": "Rico em Ômega 3 DHA;",
+      "price": 233.01,
+      "type": "Comida",
+      "img": "https://www.petlove.com.br/images/products/245885/product/Ra%C3%A7%C3%A3o_Total_Equil%C3%ADbrio_Ra%C3%A7as_Espec%C3%ADficas_Golden_Filhote_Sabor_Frango_2077390.jpg?1631555127",
+      "petType": "Cachorro",
+      "userId": 4,
+      "id": 11
+    },
+    {
+      "name": "Areia Sanitária Me.Au Pet Grãos Finos para Gatos",
+      "description": "Areia Sanitária para gatos Me.Au Pet Grão Finos: alegria em forma de produtos de qualidade, que te ajudam a economizar tempo e dinheiro.",
+      "price": 9.64,
+      "type": "Higiene",
+      "img": "https://www.petlove.com.br/images/products/250533/product/2492359.jpg?1635795887",
+      "petType": "Gato",
+      "userId": 4,
+      "id": 12
+    },
+    {
+      "name": "Ração Seca PremieR Pet Golden Salmão para Gatos Adultos Castrados",
+      "description": "Sabor inigualável: máxima satisfação para o paladar.",
+      "price": 59.31,
+      "type": "Comida",
+      "img": "https://www.petlove.com.br/images/products/213112/product/Ra%C3%A7%C3%A3o_Golden_Gatos_Adultos_Castrados_Salm%C3%A3o_31022435_3kg.jpg?1627684402",
+      "petType": "Gato",
+      "userId": 4,
+      "id": 13
+    },
+    {
+      "name": "Petisco Whiskas Temptations Antibola de Pelo para Gatos Adultos",
+      "description": "Petisco crocante com delicioso recheio.",
+      "price": 9.62,
+      "type": "Comida",
+      "img": "https://www.petlove.com.br/images/products/186423/product/Whiskas_Petisco_Temptations_AntiBoladePelo_3100683.jpg?1627604717",
+      "petType": "Gato",
+      "userId": 4,
+      "id": 14
+    },
+    {
+      "name": "Shampoo Pet Clean 5 em 1 para Cães e Gatos - 700 mL",
+      "description": "Contém 5 ativos, shampoo, condicionador, hidratante, revitalizador e nutrição.",
+      "price": 12.6,
+      "type": "Higiene",
+      "img": "https://www.petlove.com.br/images/products/249670/product/Shampoo_Pet_Clean_5_em_1_para_C%C3%A3es_e_Gatos_-_700_mL_1196663_181.jpg?1635256027",
+      "petType": "Todos",
+      "userId": 4,
+      "id": 15
+    },
+    {
+      "name": "Petisco Dreamies Carne Para Gatos Adultos",
+      "description": "Petisco para toda hora,Rende mais de 20 dias (*3 pedacinhos por dia).",
+      "price": 6.11,
+      "type": "Higiene",
+      "img": "https://www.petlove.com.br/images/products/213552/product/Petisco_Dreamies_Carne_-_40_g_3100940_1.jpg?1627685499",
+      "petType": "Gato",
+      "userId": 4,
+      "id": 16
+    },
+    {
+      "name": "Bandeja Sanitária Furba Azul para Gatos",
+      "description": "3 bandejas:Borda removível,Fácil de limpar,Ótima durabilidade e Dispensa o uso de pás.",
+      "price": 146.69,
+      "type": "Acessório",
+      "img": "https://www.petlove.com.br/images/products/142848/product/8003507978010.jpg?1627521001",
+      "petType": "Gato",
+      "userId": 4,
+      "id": 17
+    },
+    {
+      "name": "Combo Advocate Bayer para Gatos de até 4 Kg (0,4 mL) - Antipulgas",
+      "description": "Aplicação prática: Previne a Dirofilariose,Auxilia a desinfestação do ambiente,Ação imediata sem precisar picar o animal,Indicado para o tratamento de sarnas: sarcóptica, demodécica e otodécica.",
+      "price": 140.85,
+      "type": "Medicamento",
+      "img": "https://www.petlove.com.br/images/products/191969/product/ADVOCATE_COMBO_GATOS_4KG_%282%29.jpg?1627617471",
+      "petType": "Gato",
+      "userId": 4,
+      "id": 18
+    },
+    {
+      "name": "Graminha Ipet Green Digestive Grass para Gatos",
+      "description": "Auxilia na melhora do sistema imunológico.",
+      "price": 12.41,
+      "type": "Medicamento",
+      "img": "https://https://www.petlove.com.br/images/products/208533/product/Graminha_Ipet_Green_Digestive_Grass_para_Gatos_-_50_g_2319753_1.jpg?1627668523",
+      "petType": "Gato",
+      "userId": 4,
+      "id": 19
+    },
+    {
+      "name": "Assento Tubline Transpet Vermelho e Preto para Cães e Gatos",
+      "description": "Protege o assento do seu carro contra qualquer sujeira.",
+      "price": 152.91,
+      "type": "Acessório",
+      "img": "https://www.petlove.com.br/images/products/192458/product/1235462_c%C3%B3pia.jpg?1627618705",
+      "petType": "Gato",
+      "userId": 4,
+      "id": 20
+    },
+    {
+      "name": "Ração Whiskas Carne para Gatos Adultos",
+      "description": "Receita sem corantes artificiais,Com Vitamina A para saúde da visão do seu gatinho,Ômega 6 e Zinco para ajudar a manter pele e pelo do seu gato saudáveis.",
+      "price": 152.99,
+      "type": "Comida",
+      "img": "https://www.petlove.com.br/images/products/203900/product/Ra%C3%A7%C3%A3o_Whiskas_Carne_para_Gatos_Adultos_-_10_1_kg.jpg?1627654190",
+      "petType": "Gato",
+      "userId": 4,
+      "id": 21
+    },
+    {
+      "name": "Granulado Higiênico Pidan Tofu para Gatos - 2,4 Kg",
+      "description": "Pidan. A vida com o seu gato ainda melhor;Absorção natural do tofu que funciona como uma esponja;Sem nenhum aditivo químico.",
+      "price": 29.9,
+      "type": "Higiene",
+      "img": "https://www.petlove.com.br/images/products/247301/product/Granulado_Higi%C3%AAnico_Pidan_Tofu_para_Gatos_2693854_4.jpg?1633017986",
+      "petType": "Gato",
+      "userId": 4,
+      "id": 22
     }
   ]
 }
