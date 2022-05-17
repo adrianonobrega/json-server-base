@@ -52,6 +52,21 @@ PUT /product/id(id do produto)
 DELETE /product/id(id do produto)
 
 
+### Cadastro de Lojas
 
+POST /store
+OBS:Gera o id automaticamente 
+
+### Deletar uma loja
+
+DELETE /store/id(id da loja)
+
+### Cadastrar um pedido
+
+POST /request
+OBS:Gera o id automaticamente 
+
+### Deletar um pedido
+DELETE /request/id(id do pedido)
 
 
