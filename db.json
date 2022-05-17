@@ -222,6 +222,18 @@
       "petType": "Gato",
       "userId": 4,
       "id": 22
+    },
+    {
+      "name": "Testesdf",
+      "description": "Contém em sua composição extrato de yucca, que atua na redução de odor das fezes;",
+      "price": 198.65,
+      "type": "Comida",
+      "img": "https://www.petlove.com.br/images/products/250928/large/2697118_Nutrilus-Prime-Ra%C3%A7as-M%C3%A9dias.jpg?1636403533",
+      "petType": "Gato",
+      "userId": 4,
+      "id": 23
     }
-  ]
+  ],
+  "request": [],
+  "store": []
 }
